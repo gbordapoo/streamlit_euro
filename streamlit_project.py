@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from mplsoccer import VerticalPitch
+import hmac
 
 def check_password():
     """Returns `True` if the user had a correct password."""
